@@ -1,0 +1,9 @@
+D:\Projects\CloudPortal\CloudPortalCore\obj\Debug\netstandard2.0\CloudPortalCore.AssemblyInfoInputs.cache
+D:\Projects\CloudPortal\CloudPortalCore\obj\Debug\netstandard2.0\CloudPortalCore.AssemblyInfo.cs
+D:\Projects\CloudPortal\CloudPortalCore\obj\Debug\netstandard2.0\CloudPortalCore.csproj.CoreCompileInputs.cache
+D:\Projects\CloudPortal\CloudPortalCore\bin\Debug\netstandard2.0\CloudPortalCore.deps.json
+D:\Projects\CloudPortal\CloudPortalCore\bin\Debug\netstandard2.0\CloudPortalCore.dll
+D:\Projects\CloudPortal\CloudPortalCore\bin\Debug\netstandard2.0\CloudPortalCore.pdb
+D:\Projects\CloudPortal\CloudPortalCore\obj\Debug\netstandard2.0\CloudPortalCore.dll
+D:\Projects\CloudPortal\CloudPortalCore\obj\Debug\netstandard2.0\CloudPortalCore.pdb
+D:\Projects\CloudPortal\CloudPortalCore\obj\Debug\netstandard2.0\CloudPortalCore.csprojAssemblyReference.cache

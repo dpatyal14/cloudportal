@@ -19,10 +19,10 @@ namespace CloudPortal.Controllers
             _documentService = documentService;
         }
       
-        public IActionResult DocumentList(int page = 1)
+        public IActionResult DocumentList(string txtdate, string ddDateRange, string ddlistSearch1, string txtship, int page = 1)
         {
             string compid = HttpContext.Session.GetString(Convert.ToString(SessionVals.CompanyID));
-            var docs = _documentService.GetDocumentList(compid, page);
+            var docs = _documentService.GetDocumentList(txtdate, ddDateRange, ddlistSearch1, txtship, compid, page);
 
             return View(docs);
         }

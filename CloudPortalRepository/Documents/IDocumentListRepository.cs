@@ -8,7 +8,7 @@ namespace CloudPortalRepository.Repository
 {
     public interface IDocumentListRepository
     {
-        List<DocumentModel> GetDocumentList(string compid, int pagenumber);
+        List<DocumentModel> GetDocumentList(string txtdate, string ddDateRange, string ddlistSearch1, string txtship,string compid, int pagenumber);
 
     }
 }

@@ -15,9 +15,9 @@ namespace CloudPortalServices.Services
             _iDocumentRepository = iDocumentRepository;
         }
 
-        public List<DocumentModel> GetDocumentList(string compid, int pagenumber)
+        public List<DocumentModel> GetDocumentList(string txtdate, string ddDateRange, string ddlistSearch1, string txtship,string compid, int pagenumber)
         {
-            return _iDocumentRepository.GetDocumentList(compid,  pagenumber);
+            return _iDocumentRepository.GetDocumentList(txtdate,ddDateRange,ddlistSearch1,txtship,compid,  pagenumber);
         }
       
     }

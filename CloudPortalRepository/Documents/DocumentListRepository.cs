@@ -29,7 +29,7 @@ namespace CloudPortalRepository.Repository
         {
             return new MySqlConnection(this.configuration.GetConnectionString("Default"));
         }
-        public List<DocumentModel> GetDocumentList(string compid,int pagenumber)
+        public List<DocumentModel> GetDocumentList(string txtdate, string ddDateRange, string ddlistSearch1, string txtship,string compid,int pagenumber)
         {
             int pagecount = 0;
 
@@ -46,8 +46,16 @@ namespace CloudPortalRepository.Repository
                         pagecount = Convert.ToInt32(reader1["cnt"]);
                     }
                 }
-                        MySqlCommand cmd = new MySqlCommand("select createdate,apptmnt,shipnum,bolnumber,trailer,doctype,filetype,receiver,carriername,comment,active,imgrecid from imgrecs where companyid="+ compid+" limit "+pagenumber+",10", conn);
+                StringBuilder tempGetSQL = new StringBuilder();
+                if (txtdate != null)
+                {
+                    DateTime dt = Convert.ToDateTime(txtdate).Date;
+                    tempGetSQL.Append(" and date(createdate) = '"+ dt.ToString("yyyy-MM-dd")+"'");
+                }
+               
 
+                MySqlCommand cmd = new MySqlCommand("select createdate,apptmnt,shipnum,bolnumber,trailer,doctype,filetype,receiver,carriername,comment,active,imgrecid from imgrecs where companyid="+ compid+ tempGetSQL+" limit " +pagenumber+",10", conn);
+                
                 using (var reader = cmd.ExecuteReader())
                 {
                     while (reader.Read())

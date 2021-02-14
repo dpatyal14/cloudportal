@@ -8,145 +8,114 @@
 
 <h2 class="text-center">Document Listing</h2>
 <div class="row">
-    @using (Html.BeginForm("DocumentList", "Document", FormMethod.Post))
-    {
-        <div class="col-md-12 form-inline">
 
-            <div class="col-md-3">
+    <div class="col-md-12 form-inline">
+        <div class="col-md-3">
 
-                <div class="form-group">
-                    <label for="txtdate">Date:</label>
-                    <input type="date" class="form-control" id="txtdate" name="txtdate" />
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="form-group">
-                    <label for="ddDateRange">Date Range:</label>
-                    <select id="ddDateRange" name="ddDateRange">
-                        <option selected="selected" value="1d">Today</option>
-                        <option value="7d">Last 7 Days</option>
-                        <option value="30d">Last 30 Days</option>
-                        <option value="3m">Last 3 Months</option>
-                        <option value="1y">Last 12 months</option>
-                        <option value="all">All</option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="form-group">
-                    <label for="ddlistSearch1">Select Shipment:</label>
-                    <select id="ddlistSearch1" name="ddlistSearch1">
-                        <option selected="selected" value="shp">Shipment#</option>
-                        <option value="blnm">BOL#</option>
-                        <option value="rcvr">Consignee</option>
-                        <option value="pro">PRO#</option>
-                        <option value="trl">Trailer</option>
-                        <option value="app">Appointment#</option>
-                        <option value="dlv">Delivery#</option>
-                        <option value="ldn">Load#</option>
-                        <option value="cac">Customer Acc#</option>
-                        <option value="po">PO#</option>
-                        <option value="sb">Signed By</option>
-                        <option value="sd">SmartBOL Delv#</option>
-                        <option value="txt">Any field</option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="form-group">
-                    <label for="txtship">Shipment:</label>
-                    <input type="text" class="form-control" id="txtship" name="txtship" />
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="form-group">
-                    <label for=""></label>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </div>
+            <div class="form-group">
+                <label for="chkArchive">Show All Documents:</label>
+                <input type="checkbox" class="form-control" id="chkArchive" name="chkArchive" />
             </div>
         </div>
-    }
-    </div>
-        <!-- pager parameter controls -->
-        @*<form method="post" class="container border text-left pt-2 mb-3">
-            <div class="form-row form-group">
-                <div class="col">
-                    <label asp-for="TotalItems">Total number of items</label>
-                    <select asp-for="TotalItems" asp-items="Model.TotalItemsList" class="form-control form-control-sm" onchange="this.form.submit()"></select>
-                </div>
-                <div class="col">
-                    <label asp-for="PageSize">Items per page</label>
-                    <select asp-for="PageSize" asp-items="Model.PageSizeList" class="form-control form-control-sm" onchange="this.form.submit()"></select>
-                </div>
-                <div class="col">
-                    <label asp-for="MaxPages">Max page links displayed</label>
-                    <select asp-for="MaxPages" asp-items="Model.MaxPagesList" class="form-control form-control-sm" onchange="this.form.submit()"></select>
-                </div>
+        <div class="col-md-3">
+
+            <div class="form-group">
+                <label for="txtdate">Date:</label>
+                <input type="date" class="form-control" id="txtdate" name="txtdate" />
             </div>
-        </form>*@
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label for="ddDateRange">Date Range:</label>
+                <select id="ddDateRange" name="ddDateRange">
+                    <option selected="selected" value="1d">Today</option>
+                    <option value="7d">Last 7 Days</option>
+                    <option value="30d">Last 30 Days</option>
+                    <option value="3m">Last 3 Months</option>
+                    <option value="1y">Last 12 months</option>
+                    <option value="all">All</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label for="ddlistSearch1">Select Shipment:</label>
+                <select id="ddlistSearch1" name="ddlistSearch1">
+                    <option selected="selected" value="shp">Shipment#</option>
+                    <option value="blnm">BOL#</option>
+                    <option value="rcvr">Consignee</option>
+                    <option value="pro">PRO#</option>
+                    <option value="trl">Trailer</option>
+                    <option value="app">Appointment#</option>
+                    <option value="dlv">Delivery#</option>
+                    <option value="ldn">Load#</option>
+                    <option value="cac">Customer Acc#</option>
+                    <option value="po">PO#</option>
+                    <option value="sb">Signed By</option>
+                    <option value="sd">SmartBOL Delv#</option>
+                    <option value="txt">Any field</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label for="txtship">Shipment:</label>
+                <input type="text" class="form-control" id="txtship" name="txtship" />
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label for="chkriv">Show All Revisions:</label>
+                <input type="checkbox" class="form-control" id="chkriv" name="chkriv" />
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label for="chkPO">Show PO:</label>
+                <input type="checkbox" class="form-control" id="chkPO" name="chkPO" />
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label for="ddlLoc">Locations:</label>
+                @Html.DropDownList("ddlLoc", (IEnumerable<SelectListItem>)ViewBag.Locations,//new SelectList(ViewBag.Locations, "srclocation", "srclocation"),
+             "Select Location", new { @class = "form-control" })
 
-        <!-- items being paged -->
-        <table class="table table-sm table-striped table-bordered">
-            <thead><tr><td>Date</td><td>Type</td><td>Appointment</td><td>Shipment</td><td>Bol#</td><td>Trailer#</td><td>Comment</td></tr></thead>
-            <tbody>
-                @foreach (var item in Model)
-                {
-                    <tr>
-                        <td>@item.createdate</td>
-                        <td>@item.doctype</td>
-                        <td>@item.apptmnt</td>
-                        <td>@item.shipnum</td>
-                        <td>@item.bolnumber</td>
-                        <td>@item.trailer</td>
-                        <td>@item.comment</td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-        @if (Model != null && Model.FirstOrDefault().pagecount > 10)
-        {
-            var result = new PagedResult<CloudPortalCore.DocumentModel>();
-            result.PageSize = 10;
-            result.CurrentPage = Model.FirstOrDefault().pagenum;
-            result.PageCount = Model.FirstOrDefault().pagecount / result.PageSize;
-            result.RowCount = Model.FirstOrDefault().pagecount;
-            result.FirstRowOnPage = (result.CurrentPage - 1) * result.PageSize + 1;
-            result.LastRowOnPage = Math.Min(result.CurrentPage * result.PageSize, result.RowCount);
-            result.Results = (List<CloudPortalCore.DocumentModel>)Model;
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label for=""></label>
+                <button type="button" id="search" class="btn btn-default btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
 
-            @(await Component.InvokeAsync<PagerViewComponent>(result))
+</div>
+<div id="searchResults">
+    @*@await @Html.PartialAsync("_PartialDocument", Model);*@
+</div>
+<input type="hidden" id="hdnAction" value="PartialDocumentList" />
+<input type="hidden" id="hdnController" value="Document" />
+@section Scripts{
+    <script>
+         var url = '@Url.Action("PartialDocumentList", "Document")';
+        $(document).ready(function () {
+
+
+            $('#search').click(function () {
+
+                $('#searchResults').load(url, { txtdate: $('#txtdate').val(), ddDateRange: $('#ddDateRange').val(), ddlistSearch1: $('#ddlistSearch1').val(), txtship: $('#txtship').val(), chkArchive: $('#chkArchive').is(":checked"), ddlLoc: $('#ddlLoc').val(), chkPO: $('#chkPO').is(":checked"), chkriv: $('#chkriv').is(":checked") });
+            });
+
+
+    });
+
+        function openpage(pagenum) {
+
+            $('#searchResults').load(url, {
+                txtdate: $('#txtdate').val(), ddDateRange: $('#ddDateRange').val(), ddlistSearch1: $('#ddlistSearch1').val(), txtship: $('#txtship').val(), chkArchive: $('#chkArchive').is(":checked"), ddlLoc: $('#ddlLoc').val(), chkPO: $('#chkPO').is(":checked"), chkriv: $('#chkriv').is(":checked"), page: pagenum
+            });
         }
-        <!-- pager -->
-        @*@if (Model.Pager.Pages.Any())
-        {
-            <nav class="table-responsive">
-                <ul class="pagination justify-content-center d-flex flex-wrap">
-                    @if (Model.Pager.CurrentPage > 1)
-                    {
-                        <li class="page-item">
-                            <a class="page-link" href="/">First</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link" href="/?p=@(Model.Pager.CurrentPage - 1)">Previous</a>
-                        </li>
-                    }
-
-                    @foreach (var p in Model.Pager.Pages)
-                    {
-                        <li class="page-item @(p == Model.Pager.CurrentPage ? "active" : "")">
-                            <a class="page-link" href="/?p=@p">@p</a>
-                        </li>
-                    }
-
-                    @if (Model.Pager.CurrentPage < Model.Pager.TotalPages)
-                    {
-                        <li class="page-item">
-                            <a class="page-link" href="/?p=@(Model.Pager.CurrentPage + 1)">Next</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link" href="/?p=@(Model.Pager.TotalPages)">Last</a>
-                        </li>
-                    }
-                </ul>
-            </nav>
-        }*@
+    </script>
+}

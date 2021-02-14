@@ -124,3 +124,4 @@ D:\Projects\CloudPortal\CloudPortalUI\obj\Debug\netcoreapp3.1\CloudPortal.MvcApp
 D:\Projects\CloudPortal\CloudPortalUI\bin\Debug\netcoreapp3.1\JW.Pager.dll
 D:\Projects\CloudPortal\CloudPortalUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Pager\_Paging.cshtml.g.cs
 D:\Projects\CloudPortal\CloudPortalUI\obj\Debug\netcoreapp3.1\Razor\Views\Document\DocumentList.cshtml.g.cs
+D:\Projects\CloudPortal\CloudPortalUI\obj\Debug\netcoreapp3.1\Razor\Views\Document\_PartialDocument.cshtml.g.cs

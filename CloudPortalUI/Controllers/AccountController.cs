@@ -203,7 +203,12 @@ namespace CloudPortal.Controllers
                             //    LogMesg.SendLogMessage("Login Failed:" + userInfo.userid + " " + lblerrormsg.Text, "Login Failed:" + userInfo.userid);
                         }
                     }
+                string x = HttpContext.Session.GetString(Convert.ToString(SessionVals.TimeZone));
+                if (x == null || x.Length == 0)
+                {
+                    HttpContext.Session.SetString(Convert.ToString(SessionVals.TimeZone), "0");
 
+                }
                 _accountService.UpdateLoginlog(userInfo.companyid, userInfo.userid, "", "", "", loginSt.ToString(), 0, HttpContext.Session.GetString("SessionID"));
                 }
 
@@ -246,8 +251,8 @@ namespace CloudPortal.Controllers
             //SessionExtensions.Set(this,"", "");
             return View();
         }
-       
 
+       
         public IActionResult CheckApi()
         {
            

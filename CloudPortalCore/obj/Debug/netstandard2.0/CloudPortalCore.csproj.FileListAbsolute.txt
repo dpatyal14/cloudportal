@@ -7,3 +7,11 @@ D:\Projects\CloudPortal\CloudPortalCore\bin\Debug\netstandard2.0\CloudPortalCore
 D:\Projects\CloudPortal\CloudPortalCore\obj\Debug\netstandard2.0\CloudPortalCore.dll
 D:\Projects\CloudPortal\CloudPortalCore\obj\Debug\netstandard2.0\CloudPortalCore.pdb
 D:\Projects\CloudPortal\CloudPortalCore\obj\Debug\netstandard2.0\CloudPortalCore.csprojAssemblyReference.cache
+D:\Projects\GitProjects\CloudPortal\cloudportal\CloudPortalCore\bin\Debug\netstandard2.0\CloudPortalCore.deps.json
+D:\Projects\GitProjects\CloudPortal\cloudportal\CloudPortalCore\bin\Debug\netstandard2.0\CloudPortalCore.dll
+D:\Projects\GitProjects\CloudPortal\cloudportal\CloudPortalCore\bin\Debug\netstandard2.0\CloudPortalCore.pdb
+D:\Projects\GitProjects\CloudPortal\cloudportal\CloudPortalCore\obj\Debug\netstandard2.0\CloudPortalCore.AssemblyInfoInputs.cache
+D:\Projects\GitProjects\CloudPortal\cloudportal\CloudPortalCore\obj\Debug\netstandard2.0\CloudPortalCore.AssemblyInfo.cs
+D:\Projects\GitProjects\CloudPortal\cloudportal\CloudPortalCore\obj\Debug\netstandard2.0\CloudPortalCore.csproj.CoreCompileInputs.cache
+D:\Projects\GitProjects\CloudPortal\cloudportal\CloudPortalCore\obj\Debug\netstandard2.0\CloudPortalCore.dll
+D:\Projects\GitProjects\CloudPortal\cloudportal\CloudPortalCore\obj\Debug\netstandard2.0\CloudPortalCore.pdb

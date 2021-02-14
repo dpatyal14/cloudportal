@@ -7297,11 +7297,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\CloudPortal\\CloudPortalCore\\CloudPortalCore.csproj",
+      "projectUniqueName": "D:\\Projects\\GitProjects\\CloudPortal\\cloudportal\\CloudPortalCore\\CloudPortalCore.csproj",
       "projectName": "CloudPortalCore",
-      "projectPath": "D:\\Projects\\CloudPortal\\CloudPortalCore\\CloudPortalCore.csproj",
+      "projectPath": "D:\\Projects\\GitProjects\\CloudPortal\\cloudportal\\CloudPortalCore\\CloudPortalCore.csproj",
       "packagesPath": "C:\\Users\\dheeraj\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\CloudPortal\\CloudPortalCore\\obj\\",
+      "outputPath": "D:\\Projects\\GitProjects\\CloudPortal\\cloudportal\\CloudPortalCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dheeraj\\AppData\\Roaming\\NuGet\\NuGet.Config",

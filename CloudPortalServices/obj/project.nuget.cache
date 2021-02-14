@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lqNUu656myB9/IAy2ij3Ww0azpO4JybL12CIiHG2RsNcR59x9fFi36drX5LZHByhxB4PUvNt9AaK/9qvmjWcZw==",
+  "dgSpecHash": "xZTuDAr8YIeg2iCzkEefMQ+RkklFbBaVTFY+GUZ0okpu0vZ8Kg+jN6NBsoQsYWgZyIRV+WARz1NTT8iQFLRIOg==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\CloudPortal\\CloudPortalServices\\CloudPortalServices.csproj",
+  "projectFilePath": "D:\\Projects\\GitProjects\\CloudPortal\\cloudportal\\CloudPortalServices\\CloudPortalServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dheeraj\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\dheeraj\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.2.7\\microsoft.aspnet.webapi.core.5.2.7.nupkg.sha512",

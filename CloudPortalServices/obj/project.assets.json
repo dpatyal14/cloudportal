@@ -7511,11 +7511,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\CloudPortal\\CloudPortalServices\\CloudPortalServices.csproj",
+      "projectUniqueName": "D:\\Projects\\GitProjects\\CloudPortal\\cloudportal\\CloudPortalServices\\CloudPortalServices.csproj",
       "projectName": "CloudPortalServices",
-      "projectPath": "D:\\Projects\\CloudPortal\\CloudPortalServices\\CloudPortalServices.csproj",
+      "projectPath": "D:\\Projects\\GitProjects\\CloudPortal\\cloudportal\\CloudPortalServices\\CloudPortalServices.csproj",
       "packagesPath": "C:\\Users\\dheeraj\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\CloudPortal\\CloudPortalServices\\obj\\",
+      "outputPath": "D:\\Projects\\GitProjects\\CloudPortal\\cloudportal\\CloudPortalServices\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dheeraj\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7531,8 +7531,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\Projects\\CloudPortal\\CloudPortalRepository\\CloudPortalRepository.csproj": {
-              "projectPath": "D:\\Projects\\CloudPortal\\CloudPortalRepository\\CloudPortalRepository.csproj"
+            "D:\\Projects\\GitProjects\\CloudPortal\\cloudportal\\CloudPortalRepository\\CloudPortalRepository.csproj": {
+              "projectPath": "D:\\Projects\\GitProjects\\CloudPortal\\cloudportal\\CloudPortalRepository\\CloudPortalRepository.csproj"
             }
           }
         }

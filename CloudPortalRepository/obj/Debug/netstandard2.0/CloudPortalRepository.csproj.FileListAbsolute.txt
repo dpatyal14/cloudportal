@@ -10,3 +10,15 @@ D:\Projects\CloudPortal\CloudPortalRepository\bin\Debug\netstandard2.0\CloudPort
 D:\Projects\CloudPortal\CloudPortalRepository\obj\Debug\netstandard2.0\CloudPortalRepository.csprojAssemblyReference.cache
 D:\Projects\CloudPortal\CloudPortalRepository\obj\Debug\netstandard2.0\CloudPortalRepository.csproj.CopyComplete
 D:\Projects\CloudPortal\CloudPortalRepository\obj\Debug\netstandard2.0\CloudPortalRepository.csproj.CoreCompileInputs.cache
+D:\Projects\GitProjects\CloudPortal\cloudportal\CloudPortalRepository\bin\Debug\netstandard2.0\CloudPortalRepository.deps.json
+D:\Projects\GitProjects\CloudPortal\cloudportal\CloudPortalRepository\bin\Debug\netstandard2.0\CloudPortalRepository.dll
+D:\Projects\GitProjects\CloudPortal\cloudportal\CloudPortalRepository\bin\Debug\netstandard2.0\CloudPortalRepository.pdb
+D:\Projects\GitProjects\CloudPortal\cloudportal\CloudPortalRepository\bin\Debug\netstandard2.0\CloudPortalCore.dll
+D:\Projects\GitProjects\CloudPortal\cloudportal\CloudPortalRepository\bin\Debug\netstandard2.0\CloudPortalCore.pdb
+D:\Projects\GitProjects\CloudPortal\cloudportal\CloudPortalRepository\obj\Debug\netstandard2.0\CloudPortalRepository.csprojAssemblyReference.cache
+D:\Projects\GitProjects\CloudPortal\cloudportal\CloudPortalRepository\obj\Debug\netstandard2.0\CloudPortalRepository.AssemblyInfoInputs.cache
+D:\Projects\GitProjects\CloudPortal\cloudportal\CloudPortalRepository\obj\Debug\netstandard2.0\CloudPortalRepository.AssemblyInfo.cs
+D:\Projects\GitProjects\CloudPortal\cloudportal\CloudPortalRepository\obj\Debug\netstandard2.0\CloudPortalRepository.csproj.CoreCompileInputs.cache
+D:\Projects\GitProjects\CloudPortal\cloudportal\CloudPortalRepository\obj\Debug\netstandard2.0\CloudPortalRepository.csproj.CopyComplete
+D:\Projects\GitProjects\CloudPortal\cloudportal\CloudPortalRepository\obj\Debug\netstandard2.0\CloudPortalRepository.dll
+D:\Projects\GitProjects\CloudPortal\cloudportal\CloudPortalRepository\obj\Debug\netstandard2.0\CloudPortalRepository.pdb
